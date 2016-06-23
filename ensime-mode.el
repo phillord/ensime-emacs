@@ -217,6 +217,7 @@
     ["Troubleshooting" ensime-troubleshooting]
     ))
 
+;;;###autoload
 (define-minor-mode ensime-mode
   "ENSIME: The ENhanced Scala Interaction Mode for Emacs (minor-mode).
 \\{ensime-mode-map}"
