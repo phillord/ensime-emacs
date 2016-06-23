@@ -310,6 +310,10 @@
       (when (equal major-mode 'scala-mode)
 	(ensime--unset-imenu)))))
 
+;;;###autoload
+(add-hook 'scala-mode-hook
+          'ensime-mode)
+
 ;;;;;; Mouse handlers
 
 (defun ensime-control-mouse-1-single-click (event)
